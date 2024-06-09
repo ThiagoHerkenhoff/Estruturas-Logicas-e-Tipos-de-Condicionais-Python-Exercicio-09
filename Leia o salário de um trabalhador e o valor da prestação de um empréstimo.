@@ -1,0 +1,13 @@
+# 9 - Leia o salário de um trabalhador e o valor da prestação de um empréstimo. Se a prestação for maior que 20% do salário
+# imprima: Empréstimo não concedido, caso contrário imprima: Empréstimo concedido.
+
+salario = float(input('Informe o seu salário: '))
+parcela = float(input('Informe o valor da parcela do empréstimo '))
+
+valor_valido = salario * 0.2
+
+if parcela < valor_valido:
+    print('Emprestimo Concedido')
+
+else:
+    print("Empréstimo não concedido")
